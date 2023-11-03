@@ -1,0 +1,13 @@
+html{
+    background-color: antiquewhite;
+}
+
+#headshot{
+    height: 200px;
+    width: 175px;
+}
+
+.projectTitle{
+    background-color: rosybrown;
+    text-align: center;
+}
