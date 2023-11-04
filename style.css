@@ -1,13 +1,28 @@
-html{
-    background-color: antiquewhite;
+/* https://www.color-hex.com/color-palette/1025449 */
+body{
+    background-color: #dbead2;
+    margin: 50px 200px;
 }
 
 #headshot{
     height: 200px;
     width: 175px;
+    position: relative;
+    left: 10px;
 }
 
-.projectTitle{
-    background-color: rosybrown;
+.project > img{
+    height: 200px;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+
+.projectTitle,.links{
+    background-color: #99a98f;
     text-align: center;
+}
+
+.links > a{
+    padding: 10px;
 }
