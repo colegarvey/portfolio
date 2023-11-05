@@ -1,6 +1,6 @@
 /* https://www.color-hex.com/color-palette/1025449 */
 body{
-    background-color: #dbead2;
+    background-color: #c1d0b5;
     margin: 50px 200px;
 }
 
@@ -18,11 +18,14 @@ body{
     padding: 10px;
 }
 
-.projectTitle,.links{
+.projectTitle{
     background-color: #99a98f;
     text-align: center;
+    padding: 10px;
+
 }
 
-.links > a{
+.links,.links > a{
     padding: 10px;
+    text-align: center;
 }

@@ -1,0 +1,18 @@
+body{
+    background-color: #c1d0b5;
+    margin: 50px 100px;
+}
+
+#intro{
+    padding: 10px;
+}
+
+h3{
+    background-color: #99a98f;
+    padding: 10px;
+}
+
+#links, #links > a{
+    padding: 10px;
+    text-align: center;
+}
