@@ -3,16 +3,26 @@ body{
     margin: 50px 100px;
 }
 
+
 #intro{
     padding: 10px;
 }
 
-h3{
+#headshot{
+    height: 300px;
+}
+
+.card{
+    display: block;
+    margin-bottom: 30px;
+    border: solid black;
+}
+.title{
     background-color: #99a98f;
     padding: 10px;
 }
 
-#links, #links > a{
+footer, footer > a{
     padding: 10px;
     text-align: center;
 }
