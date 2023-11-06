@@ -1,28 +1,33 @@
 body{
-    background-color: #c1d0b5;
-    margin: 50px 100px;
-}
-
-
-#intro{
-    padding: 10px;
+    background-color: aliceblue;
+    margin: 50px 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 #headshot{
     height: 300px;
+    float: left;
+    margin-right: 30px;
 }
 
 .card{
     display: block;
     margin-bottom: 30px;
-    border: solid black;
+    flex: 1;
 }
+
 .title{
-    background-color: #99a98f;
+    background-color:antiquewhite;
     padding: 10px;
 }
 
 footer, footer > a{
     padding: 10px;
     text-align: center;
+}
+
+.contacts{
+    position: relative;
+    left: 10px;
 }
