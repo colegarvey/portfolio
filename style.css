@@ -1,20 +1,32 @@
 body{
     background-color: aliceblue;
-    margin: 50px 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin: 25px 100px;
     display: flex;
     flex-direction: column;
 }
 
-.box{
-    flex: 1;
+#navBar{
+    display: flex;
+    justify-content: space-around;
+    background-color: tan;
+    outline: 1px black solid;
+    font-weight: bold;
+    margin-bottom: 100px;
 }
 
 #headshot{
-    height: 300px;
     position: relative;
     left: 10px;
-    float: left;
-    margin-right: 30px;
+    height: 25rem;
+    margin-right: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 15px 0px 225px 0px;
+
 }
 
 .project > img{
@@ -25,13 +37,15 @@ body{
 }
 
 .projectTitle{
-    background-color: antiquewhite;
     text-align: center;
+    font-size:3rem;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
     padding: 10px;
 
 }
 
-.links,.links > a{
-    padding: 10px;
-    text-align: center;
-}
