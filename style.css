@@ -1,9 +1,8 @@
+
 body{
     background-color: aliceblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     margin: 25px 100px;
-    display: flex;
-    flex-direction: column;
 }
 
 #navBar{
@@ -23,16 +22,15 @@ body{
 }
 
 .container{
-    display: grid;
-    grid-template-columns: repeat(2,auto);
-    padding: 15px 0px 225px 0px;
-
+    display: flex;
+    gap: 20px;
+    padding-bottom: 225px;
+    outline: 2px black solid;
 }
 
 .project > img{
-    height: 200px;
-    position: relative;
-    left: 10px;
+    height: 10%;
+    flex-basis: 400px;
     padding: 10px;
 }
 
