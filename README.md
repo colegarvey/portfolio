@@ -1,2 +1,2 @@
-# ColeGarvey-portfolio
-html portfolio webpage in the works
+# portfolio
+html css portfolio webpage in the works
